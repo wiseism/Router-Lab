@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.10)
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(READLINE readline)
