@@ -28,3 +28,8 @@ ubuntu job 因此被取消。
 | run id | 结果 |
 | --- | --- |
 | 42440925102 | ✅ success |
+
+## 复核（2026-11-13）
+- 该仓库原为 private，Free 计划 2000 分钟额度耗尽后被 billing 拦截（job 0 步失败）。
+- 已改为 public（public 仓库 Actions 免费不限量）。
+- 重跑 43466837535 ✅ success（ubuntu-latest + macos-latest 均通过）。
